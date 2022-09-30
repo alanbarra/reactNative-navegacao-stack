@@ -8,7 +8,7 @@ export default function ContatoScreen() {
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
             <Text>Contato Screen</Text>
-            <Button title="Voltar para Home" onPress={() => navigation.navigate('Home')} />
+            <Button title="Sobre" onPress={() => navigation.navigate('Sobre', { nome: 'Alan' })} />
         </View>
     );
 }
