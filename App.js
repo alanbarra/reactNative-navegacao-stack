@@ -14,6 +14,9 @@ export default function App() {
     <NavigationContainer>
       <Tab.Navigator
         screenOptions={({ route }) => ({
+          headerShown: true,
+          tabBarActiveTintColor: '#2A9F85',
+          tabBarInactiveTintColor: '#C7C7C7',
           tabBarIcon: ({ color, size }) => {
             let iconName;
 
@@ -43,5 +46,6 @@ export default function App() {
     </NavigationContainer>
   );
 }
+
 
 
